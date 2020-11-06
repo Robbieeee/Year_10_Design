@@ -58,25 +58,7 @@ h5{
 	
 
 }
-/*
 
-.img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.bottom-content .post-content .post-image .img {
-	display: block;
-  	margin-left: 0px;
-	margin-top: -70px;
-	width: 35%;
-	height: 15rem;
-	top: 0px;
-}
-
-*/
 
 .bottom-content .post-title{
 	top: 230px;
@@ -95,24 +77,11 @@ h5{
 
 }
 
-
-/*
-.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: 550px;
-	margin-top: -305px;
-	width: 35%;
-	height: 15rem;
-	top: 90px;
-}
-*/
-
 .bottom-content .post-contenttwo .post-title{
 	top: 0px;
 	margin-left: 520px;
 	font-family: 'Roboto Slab', sans-serif;
 }
-
 
 
 /*Content*/
@@ -246,15 +215,6 @@ main .blog-content span{
 	display: block;
 }
 
-/*
-
-main .site-contents .post-content > .post-image{
-    padding: 1rem 20rem;
-    position: fixed;
-}
-
-*/
-
 main .site-contents .post-content >  .post-title{
 	 padding: 30rem 20rem;
     position: fixed;
@@ -313,17 +273,6 @@ main .site-content .post-content > .post-image > div{
 	overflow: hidden;
 }
 
-/*
-main .site-content .post-content > .post-image .img{
-	width: 100%;
-	transition: all 0.75s ease;
-}
-
-main .site-content .post-content > .post-image .img:hover{
-	transform: scale(1.1);
-}
-
-*/
 
 main .site-content .post-content > .post-image .post-info span{
 	margin: 0 .5rem;
@@ -387,29 +336,6 @@ main .post-content .post-title a{
 .site-content > .sidebar .category-list .list-items a{
 	color: black;	
 }
-
-/*
-.site-content .sidebar .popular-post .post-content{
-	padding: 1rem 0;
-}
-
-.site-content .sidebar .popular-post h2{
-	padding-top: 8rem;
-}
-
-.site-content .sidebar .popular-post .post-info{
-	padding: .4rem .1rem !important;
-	bottom: 0rem !important;
-	left: 1.5rem !important;
-	border-radius: 0rem !important;
-	background: white !important;
-}
-
-.site-content .sidebar .popular-post .post-title a{
-	font-size: 1.3rem;
-}
-
-*/
 	
 	.post-content {
 	margin: 4rem 8rem;
@@ -417,17 +343,6 @@ main .post-content .post-title a{
 	font-family: 'Cabin', sans-serif;
 }
 
-/*
-	.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: 400px;
-	margin-top: -305px;
-	width: 35%;
-	height: 15rem;
-	top: 90px;
-}
-
-*/
 	
 	.bottom-content .post-title{
 	top: 230px;
@@ -447,8 +362,6 @@ main .post-content .post-title a{
 
 	
 }
-
-
 	
 	.post-content {
 	margin: 4rem 7rem;
@@ -456,18 +369,7 @@ main .post-content .post-title a{
 	font-family: 'Cabin', sans-serif;
 }
 
-/*
-	.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: 350px;
-	margin-top: -305px;
-	width: 35%;
-	height: 15rem;
-	top: 90px;
-}
 
-*/
-	
 	.bottom-content .post-title{
 	top: 230px;
 	margin-left: -30px;
@@ -487,34 +389,13 @@ main .post-content .post-title a{
 	
 }
 
-
-	
 	.post-content {
 	margin: 4rem 7rem;
 	font-size: 1.4rem;
 	font-family: 'Cabin', sans-serif;
 }
 	
-/*
-		.bottom-content .post-content .post-image .img {
-	display: block;
-  	margin-left: 0px;
-	margin-top: -70px;
-	width: 45%;
-	height: 15rem;
-	top: 0px;
-}
-	.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: 300px;
-	margin-top: -305px;
-	width: 45%;
-	height: 15rem;
-	top: 90px;
-}
 
-*/
-	
 	.bottom-content .post-title{
 	top: 230px;
 	margin-left: -30px;
@@ -549,18 +430,6 @@ main .post-content .post-title a{
 
 }
 
-/*
-
-.bottom-content .post-content .post-image .img {
-	display: block;
-  	margin-left: 0px;
-	margin-top: -70px;
-	width: 25%;
-	height: 6rem;
-	top: 0px;
-}
-
-*/ 
 .bottom-content .post-title{
 	top: -36px;
 	margin-left: 160px;
@@ -578,17 +447,7 @@ main .post-content .post-title a{
 
 }
 
-/*
-.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: -80px;
-	margin-top: -35px;
-	width: 36%;
-	height: 6rem;
-	top: 0px;
-	margin-right: -100px;
-}
-*/
+
 .bottom-content .post-contenttwo .post-title{
 	top: -117px;
 	margin-left: 80px;
@@ -611,16 +470,7 @@ main .post-content .post-title a{
 
 }
 		
-/*		
-.bottom-content .post-content .post-image .img {
-	display: block;
-  	margin-left: 0px;
-	margin-top: -70px;
-	width: 35%;
-	height: 6rem;
-	top: 0px;
-}
-*/
+
 .bottom-content .post-title{
 	top: -16px;
 	margin-left: 180px;
@@ -638,16 +488,7 @@ main .post-content .post-title a{
 
 }
 
-/*
-.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: -80px;
-	margin-top: -35px;
-	width: 56%;
-	height: 6rem;
-	top: 0px;
-}
-*/
+
 .bottom-content .post-contenttwo .post-title{
 	top: -117px;
 	margin-left: 90px;
@@ -674,16 +515,6 @@ main .post-content .post-title a{
 
 }
 		
-/*		
-.bottom-content .post-content .post-image .img {
-	display: block;
-  	margin-left: 0px;
-	margin-top: -70px;
-	width: 33%;
-	height: 6rem;
-	top: 0px;
-}
-*/
 .bottom-content .post-title{
 	top: -26px;
 	margin-left: 150px;
@@ -701,16 +532,6 @@ main .post-content .post-title a{
 
 }
 
-/*
-.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: -120px;
-	margin-top: -35px;
-	width: 78%;
-	height: 6rem;
-	top: 0px;
-}
-*/
 .bottom-content .post-contenttwo .post-title{
 	top: -117px;
 	margin-left: 30px;
@@ -719,15 +540,12 @@ main .post-content .post-title a{
 	font-size: 0.9rem
 }
 
-}
-		
+}		
 		.bottom-content{
 			
 			margin: 0rem 0em;
 			
-		}
-
-	
+		}	
 	.post-content {
 	margin: 4rem 1rem;
 	font-size: 1.4rem;
@@ -736,16 +554,6 @@ main .post-content .post-title a{
 
 }
 		
-/*		
-.bottom-content .post-content .post-image .img {
-	display: block;
-  	margin-left: 0px;
-	margin-top: -70px;
-	width: 33%;
-	height: 6rem;
-	top: 0px;
-}
-*/
 .bottom-content .post-title{
 	top: -26px;
 	margin-left: 120px;
@@ -760,19 +568,8 @@ main .post-content .post-title a{
 	font-family: 'Cabin', sans-serif;
 	color: goldenrod;
 	
-
 }
 
-/*
-.bottom-content .post-contenttwo .post-image .imgtwo {
-	display: block;
-  	margin-left: -164px;
-	margin-top: -35px;
-	width: auto;
-	height: 6rem;
-	top: 0px;
-}
-*/
 .bottom-content .post-contenttwo .post-title{
 	top: -117px;
 	margin-left: -40px;
