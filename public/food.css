@@ -1,0 +1,320 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: #3d3939;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.nav{
+    background: #096ee8;
+    padding: 0 2rem;
+	min-height: 10vh;
+	height: 0rem;
+	margin-top: -10px;
+	margin-bottom: 50px;
+    overflow: hidden;
+	transition: height 0.5s ease-in-out;
+}
+
+
+
+.nav .nav-menu{
+	justify-content: space-between
+}
+.nav .nav-items{
+	display: flex;
+	margin: 0;
+	padding-left: 30rem;
+	margin-top: -65px
+	
+}
+
+.nav .nav-items .nav-link{
+	 padding: 1.6rem 1.5rem;
+	 font-size: 1.2rem;
+	 position: relative;
+	 font-family: 'Livvic', "Lucida Console";
+	 color: black
+	 
+}
+
+
+.nav .nav-items .nav-link:hover{
+	background-color: #07117d;
+}
+
+nav .nav-items .nav-link:hover{
+	color: white
+}
+
+
+
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+	font-size: 1.6rem;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+.blog{
+	height: 100vh;
+	width: 100%;
+}
+
+.blog .blog-post{
+	padding-top: -2rem;
+	
+}
+
+.blog-post .blog-content1{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 25.5%;
+	padding-bottom: 100px;
+	height: 355px;
+	margin: 3rem 2rem;
+	color: black;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+	
+}
+
+.blog-title1{
+	margin-left: -335px;
+	margin-top: 200px;
+	text-align: center;
+	color: black;
+}
+
+.blog-content1 .btn-blog{
+	padding: .2rem 2rem;
+	margin: .5rem;
+	color: red;
+	border-radius: 3rem;
+	align-content: center;
+	margin-left: 7.9rem;
+	margin-right: 6.4rem;
+		
+}
+
+.blog-content1 .date{
+	padding: 2rem 2rem;
+	margin: .5rem;
+	margin-left: 1.5rem;
+	padding-top: 4rem;;
+	color: black;
+	border-radius: 3rem;
+	text-align: center;
+		
+}
+
+.blog-post .blog-content2{
+	flex-direction: row;
+	text-align: center;
+	width: 25.5%;
+	padding-bottom: 100px;
+	margin-top: -8rem;
+	height: 355px;
+	margin: 3rem 2rem;
+	color: black;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+	
+}
+
+.blog-title2{
+	margin-left: -327px;
+	margin-top: 200px;
+	text-align: center;
+	color: black;
+}
+
+.blog-content2 .btn-blog{
+	padding: .2rem 2rem;
+	margin: .5rem;
+	color: red;
+	border-radius: 3rem;
+	align-content: center;
+	margin-left: 7.9rem;
+	margin-right: 6.4rem;
+		
+}
+
+.blog-content2 .date{
+	padding: 2rem 2rem;
+	margin: .5rem;
+	margin-left: 1.5rem;
+	padding-top: 4rem;;
+	color: red;
+	border-radius: 3rem;
+	text-align: center;
+		
+}
+
+
+.blog-post .blog-content2{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 24.3%;
+	margin: -25.2rem 30rem;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+
+.blog-post .blog-content3{
+	flex-direction: row;
+	text-align: center;
+	width: 25.5%;
+	padding-bottom: 100px;
+	margin-top: -8rem;
+	height: 355px;
+	margin: 3rem 2rem;
+	color: black;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+	
+}
+
+.blog-title3{
+	margin-left: -325px;
+	margin-top: 200px;
+	text-align: center;
+	color: black;
+}
+
+.blog-content3 .btn-blog{
+	padding: .2rem 2rem;
+	margin-top: 1rem;
+	color: red;
+	border-radius: 3rem;
+	align-content: center;
+	margin-left: 7.9rem;
+	margin-right: 6.4rem;
+		
+}
+
+.blog-content3 .date{
+	padding: 2rem 2rem;
+	margin: .5rem;
+	margin-left: 1.5rem;
+	padding-top: 4rem;;
+	color: red;
+	border-radius: 3rem;
+	text-align: center;
+		
+}
+
+
+.blog-post .blog-content3{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 24.3%;
+	margin: -25.2rem 30rem;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+.blog-post .blog-content3{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 24.4%;
+	margin: 3.2rem 60rem;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+.blog-content .blog-title{
+	padding: 1rem 0;
+	text-align: center;
+}
+
+.blog-content .btn-blog{
+	padding: .2rem 2rem;
+	margin: .5rem;
+	color: red
+}
+
+.blog-content span{
+	display: block;
+}
+
+.post-content{
+	width: 100%;
+}
+
+.posts{
+	margin-top: -20rem
+}
+
+.post-content > .post-image, .post-title{
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.post-content > .post-image .post-info{
+	position: absolute;
+	padding: 1rem;
+	background: #73bbff;
+	bottom: 0%;
+	left: 40vw;
+	border-radius: 3rem;
+}
+
+
+
+.post-content > .post-image > div{
+	overflow: hidden;
+}
+
+.post-content > .post-image .img{
+	width: 65%;
+	margin-right: 20%;
+	margin-left: 17%;
+	padding-top: 1rem;
+	transition: all 0.75s ease;
+}
+
+
+.post-content > .post-image .img:hover{
+	transform: scale(1.1);
+}
+
+.post-content > .post-image .post-info span{
+	margin: 0 .5rem;
+}
+
+.post-content .post-title a{
+	font-family: 'Roboto Slab', serif;
+	font-size: 2rem;
+	color: black;
+	
+}
+
+.post-content .post-title .post.btn{
+	border-radius: 0;
+	background: #73bbff;
+}
+
+.footer{
+	background-color: blue;
+}
+
+.container{
+	margin: 0 5vw;
+	margin-top: -5rem;
+	padding-top: -100rem;
+}
+
+

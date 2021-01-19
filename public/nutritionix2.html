@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nutritionix</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="spoonacular.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="food.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Mukta:wght@500&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+	
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<style>
+		.results-tbl {
+    		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    		border-collapse: collapse;
+    		width: 100%;
+		}
+
+		.results-tbl td, .results-tbl th {
+    		border: 1px solid #ddd;
+    		padding: 8px;
+		}
+
+		.results-tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+		.results-tbl tr:hover {background-color: #ddd;}
+
+		.results-tbl th {
+    		padding-top: 12px;
+    		padding-bottom: 12px;
+    		text-align: left;
+    		background-color: #4CAF50;
+    		color: white;
+		}
+
+		form > button {
+	padding: .2rem 2rem;
+	margin: .5rem;
+	color: red;
+	border-radius: 3rem;
+	align-content: center;
+	
+}
+
+form > input{
+	padding: .2rem 2rem;
+	margin: .5rem;
+	color:red;
+	margin-right: 0rem;
+	border-radius: 3rem;
+	align-content: center;
+	
+}
+
+body{
+	background: linear-gradient(to bottom, #D0D0D0 0%,#D0D0D0 32%,#f0f5f5 33%,#f0f5f5 66%,#e6eeff 67%,#D0D0D0 67%,#D0D0D0 100%);
+}
+
+h2{
+	margin-top: 4.5rem;
+    color: darkblue;
+	margin-left: -20rem;
+
+}
+
+h3{
+	margin-left: 0rem;
+	
+}
+
+	</style>
+</head>
+<body>
+
+	<div class="topnav" id="myTopnav">
+  <a href="food.html" class="active">The Food Centre</a>
+		 <a href="contact.html">Contact Us</a>
+		 <a href="about.html">About</a>
+</div>
+
+
+	<h2>Food</h2>
+	<br>
+	<h3>Type a food or recipe to find nutrition information</h3>
+	<form>
+		<input id="user-input"  placeholder="Search.." type="text"> 
+	<br>
+	<br>
+	
+	<input id="submit-btn" class="submit-btn" type="button" placeholder="Search.." value="Submit"> 
+	</form>
+
+	<div id="results">
+		<br>
+		<br>
+		<table id="food-results-tbl" class="results-tbl">
+			<thead>
+				<tr>
+					<th></th>
+					<th>Qty</th>
+					<th>Unit</th>
+					<th>Food</th>
+					<th>Calories</th>
+					<th>Protein</th>
+					<th>Sodium</th>
+					<th>Cholesterol</th>
+					<th>Potassium</th>
+					
+					
+					
+				</tr>
+			</thead>
+			<tbody id="food-result-rows"></tbody>
+		</table>
+	</div>
+
+	<br>
+	<h2>Exercise</h2>
+	<br>
+	<h3>Type an exercise below</h3>
+	<form>
+		<input id="exercise-user-input"  placeholder="Search.." type="text">
+		<br>
+		<br>
+		
+		<input id="exercise-submit-btn"  type="button" value="Submit">
+	</form>
+
+	<div id="exercise-results">
+		<br>
+		<br>
+		<table id="exercise-results-tbl" class="results-tbl">
+			<thead>
+				<tr>
+					<th></th>
+					<th>Exercise Name</th>
+					<th>MET (Metabolic Equivalent)</th>
+					<th>Duration</th>
+					<th>Calories Expended</th>
+				</tr>
+			</thead>
+			<tbody id="exercise-result-rows"></tbody>
+		</table>
+	</div>
+	
+
+<!--	 <header> -->
+        <h2> Recipe Finder</h2>
+        </br>
+        <h3>Type an ingredient below to search for recipes</h3>
+  <!--  </header> -->
+
+  <div class="site-background" data-aos="fade-up" data-aos-delay=100>
+</div>
+
+    <form>
+        <input type="text"  placeholder="Search.." id="ingredients">
+        <button id="submit">Submit</button> 
+    </form>
+    <section>
+    </section>
+	
+	<style>
+		
+		
+		
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #096ee8;
+	padding: 0 3rem;
+	min-height: 10vh;
+	width: 100%;
+	height: 0rem;
+    overflow: hidden;
+	position: relative;
+	transition: height 0.5s ease-in-out;
+	
+}
+	
+.topnav{
+	position:fixed;
+	top: 0px;
+}
+
+.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 1.5rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+	 
+}
+	
+		
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #3d3939;
+}
+
+.topnav a:hover {
+  color: white;
+  background-color: #07117d;
+}
+	
+.topnav a.active {
+  background-color: #096ee8;
+  color:white;
+  font-size: 1.6rem;
+  display: block;
+  left: 0%;
+  padding: 1rem 3rem;
+  font-family: 'Roboto Slab', serif;
+  float: left
+}
+
+.topnav .icon {
+  display: none;
+}
+
+	.topnav .icon:hover {
+   background-color: #096ee8;
+}
+		
+	
+	.topnav {
+	width: 140%;	
+	}
+	
+	
+	.topnav a.active {
+  display: block;
+  padding: 1rem 0;
+  left: -35px;
+}
+		
+.site-title{
+	justify-content: center;
+	background: url('../public/assets/food.jpg')
+}
+
+ .site-title .site-background{
+	padding-top: 10rem;
+	text-align: center;
+}
+
+		
+
+</style>
+
+
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="fetch.js"></script>
+</body>
+</html>
